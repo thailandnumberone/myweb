@@ -1,7 +1,95 @@
-<html>
- <body>
-   <h1>Your Name Here</h1>
-   <h2>Your student code here</h2>
-  <h2>พยายามแสดงภาษาไทย<h2>
- </body>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ร้านดินสอ CMU</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+    header {
+      background-color: #6A1B9A;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    header img {
+      width: 80px;
+      vertical-align: middle;
+    }
+    header h1 {
+      display: inline;
+      margin-left: 10px;
+      font-size: 28px;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .product {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin: 15px;
+      padding: 15px;
+      width: 250px;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    .price {
+      color: #6A1B9A;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .ad-banner {
+      background-color: #FFD54F;
+      text-align: center;
+      padding: 15px;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 20px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="โลโก้ร้าน">
+    <h1>ร้านดินสอ CMU</h1>
+  </header>
+
+  <div class="ad-banner">
+    โปรโมชั่นพิเศษ! ซื้อครบ 100 บาท รับฟรีสมุดโน้ต 1 เล่ม 🎁
+  </div>
+
+  <div class="container">
+    <div class="product">
+      <img src="pencil1.jpg" alt="ดินสอรุ่น A">
+      <h2>ดินสอรุ่น A</h2>
+      <p class="price">ราคา 15 บาท</p>
+    </div>
+    <div class="product">
+      <img src="pencil2.jpg" alt="ดินสอรุ่น B">
+      <h2>ดินสอรุ่น B</h2>
+      <p class="price">ราคา 20 บาท</p>
+    </div>
+    <div class="product">
+      <img src="pencil3.jpg" alt="ดินสอรุ่น C">
+      <h2>ดินสอรุ่น C</h2>
+      <p class="price">ราคา 25 บาท</p>
+    </div>
+  </div>
+
+</body>
 </html>
